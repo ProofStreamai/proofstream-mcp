@@ -1,0 +1,21 @@
+{
+  "name": "proofstream-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for ProofStream — real-time human verification API for AI agents",
+  "main": "dist/index.js",
+  "bin": { "proofstream-mcp": "dist/index.js" },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["mcp", "proofstream", "verification", "ai-agents", "human-verification"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
