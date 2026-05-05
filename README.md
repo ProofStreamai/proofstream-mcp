@@ -1,5 +1,7 @@
 # ProofStream MCP Server
 
+> **Available on npm:** `npx proofstream-mcp` — published 2026-05-05, v0.1.0
+
 Give your AI agent the ability to dispatch a human verifier to physically verify something in the real world.
 
 ## What It Does
