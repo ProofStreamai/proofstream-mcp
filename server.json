@@ -3,13 +3,15 @@
   "name": "io.github.ProofStreamai/proofstream-mcp",
   "title": "ProofStream",
   "description": "Dispatch a human verifier to physically verify anything in the real world. For AI agents.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "proofstream-mcp",
-      "version": "0.1.0",
-      "transport": { "type": "stdio" }
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }
